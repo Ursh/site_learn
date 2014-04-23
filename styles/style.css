@@ -80,6 +80,16 @@ article
     margin: auto auto 5% auto;       
     height: auto;   
 }
+article a 
+{
+    text-decoration: none;
+    color: #000000;
+}
+article a:visited
+{
+    text-decoration: none;
+    color: #000000;
+}
 
 ul.txt
 {
@@ -117,7 +127,9 @@ footer
     position: fixed;
     padding-top: 1px;
     bottom: 0;
-    background: #1a4780;
+    background-color: #1a4780;
+    text-align: center;
+    color:#ffffff;
 }
 /*mnu*/
 /*Горизонтальное выпадающее меню*/
